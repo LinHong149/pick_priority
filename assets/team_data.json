@@ -1,0 +1,695 @@
+[
+    {
+        "number": "19836",
+        "name": "Hawk",
+        "type": "specimen",
+        "opr": 162.9,
+        "teleop_opr": 114.7,
+        "auton_opr": 31.6,
+        "end-ascent-score": 12.5
+    },
+    {
+        "number": "19836",
+        "name": "Hawk",
+        "type": "specimen",
+        "opr": 141.9,
+        "teleop_opr": 102.3,
+        "auton_opr": 39.7,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "16417",
+        "name": "ROC",
+        "type": "specimen",
+        "opr": 115.0,
+        "teleop_opr": 76.6,
+        "auton_opr": 26.4,
+        "end-ascent-score": 10.1
+    },
+    {
+        "number": "16417",
+        "name": "ROC",
+        "type": "sample",
+        "opr": 109.0,
+        "teleop_opr": 91.1,
+        "auton_opr": 19.5,
+        "end-ascent-score": 0.9
+    },
+    {
+        "number": "19500",
+        "name": "RoBEARtics",
+        "type": "sample",
+        "opr": 104.1,
+        "teleop_opr": 89.6,
+        "auton_opr": 7.5,
+        "end-ascent-score": 1.5
+    },
+    {
+        "number": "19530",
+        "name": "The Thunderbirds",
+        "type": "sample",
+        "opr": 98.1,
+        "teleop_opr": 61.1,
+        "auton_opr": 19.8,
+        "end-ascent-score": 20.6
+    },
+    {
+        "number": "18846",
+        "name": "Brebotics",
+        "type": "sample",
+        "opr": 95.7,
+        "teleop_opr": 69.4,
+        "auton_opr": 20.4,
+        "end-ascent-score": 1.6
+    },
+    {
+        "number": "18158",
+        "name": "The Futuristics",
+        "type": "sample",
+        "opr": 95.4,
+        "teleop_opr": 51.2,
+        "auton_opr": 29.7,
+        "end-ascent-score": 11.0
+    },
+    {
+        "number": "27076",
+        "name": "Intellibots Academy",
+        "type": "specimen",
+        "opr": 91.3,
+        "teleop_opr": 59.1,
+        "auton_opr": 18.8,
+        "end-ascent-score": 9.0
+    },
+    {
+        "number": "16413",
+        "name": "Lo-Ellen Robotics",
+        "type": "specimen",
+        "opr": 90.6,
+        "teleop_opr": 66.3,
+        "auton_opr": 13.5,
+        "end-ascent-score": 3.5
+    },
+    {
+        "number": "16413",
+        "name": "Lo-Ellen Robotics",
+        "type": "specimen",
+        "opr": 89.8,
+        "teleop_opr": 65.8,
+        "auton_opr": 26.3,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "19500",
+        "name": "RoBEARtics",
+        "type": "sample",
+        "opr": 88.7,
+        "teleop_opr": 87.0,
+        "auton_opr": 0.0,
+        "end-ascent-score": 1.2
+    },
+    {
+        "number": "27315",
+        "name": "Team Titans 4",
+        "type": "specimen",
+        "opr": 86.0,
+        "teleop_opr": 54.1,
+        "auton_opr": 19.7,
+        "end-ascent-score": 6.0
+    },
+    {
+        "number": "19836",
+        "name": "Hawk",
+        "type": "specimen",
+        "opr": 84.3,
+        "teleop_opr": 40.5,
+        "auton_opr": 20.5,
+        "end-ascent-score": 2.0
+    },
+    {
+        "number": "16417",
+        "name": "ROC",
+        "type": "sample",
+        "opr": 84.2,
+        "teleop_opr": 72.3,
+        "auton_opr": 10.2,
+        "end-ascent-score": 0.2
+    },
+    {
+        "number": "25049",
+        "name": "BudJetTech",
+        "type": "sample",
+        "opr": 83.4,
+        "teleop_opr": 77.9,
+        "auton_opr": 6.3,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "18809",
+        "name": "Atomic Liquitabs",
+        "type": "sample",
+        "opr": 82.7,
+        "teleop_opr": 49.8,
+        "auton_opr": 12.0,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "27076",
+        "name": "Intellibots Academy",
+        "type": "sample",
+        "opr": 79.7,
+        "teleop_opr": 28.8,
+        "auton_opr": 2.7,
+        "end-ascent-score": 21.9
+    },
+    {
+        "number": "19530",
+        "name": "The Thunderbirds",
+        "type": "specimen",
+        "opr": 79.6,
+        "teleop_opr": 51.7,
+        "auton_opr": 13.4,
+        "end-ascent-score": 6.8
+    },
+    {
+        "number": "18809",
+        "name": "Atomic Liquitabs",
+        "type": "sample",
+        "opr": 79.1,
+        "teleop_opr": 63.1,
+        "auton_opr": 7.7,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "19468",
+        "name": "Alpha Dogs Theta",
+        "type": "sample",
+        "opr": 78.4,
+        "teleop_opr": 55.0,
+        "auton_opr": 16.6,
+        "end-ascent-score": 3.1
+    },
+    {
+        "number": "22603",
+        "name": "Stormbots",
+        "type": "specimen",
+        "opr": 77.9,
+        "teleop_opr": 59.5,
+        "auton_opr": 12.8,
+        "end-ascent-score": 3.9
+    },
+    {
+        "number": "22034",
+        "name": "Packbot",
+        "type": "sample",
+        "opr": 73.5,
+        "teleop_opr": 45.7,
+        "auton_opr": 11.9,
+        "end-ascent-score": 15.4
+    },
+    {
+        "number": "21393",
+        "name": "BearBella",
+        "type": "specimen",
+        "opr": 73.2,
+        "teleop_opr": 55.0,
+        "auton_opr": 12.1,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "9999",
+        "name": "The Ninejas",
+        "type": "sample",
+        "opr": 72.4,
+        "teleop_opr": 48.1,
+        "auton_opr": 15.5,
+        "end-ascent-score": 6.4
+    },
+    {
+        "number": "18844",
+        "name": "Pr0Teens",
+        "type": "sample",
+        "opr": 71.2,
+        "teleop_opr": 53.9,
+        "auton_opr": 12.1,
+        "end-ascent-score": 1.6
+    },
+    {
+        "number": "16366",
+        "name": "TFS Robotic Unicorns",
+        "type": "sample",
+        "opr": 69.9,
+        "teleop_opr": 55.0,
+        "auton_opr": 11.0,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "27344",
+        "name": "UCC",
+        "type": "specimen",
+        "opr": 69.9,
+        "teleop_opr": 46.1,
+        "auton_opr": 18.4,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "19498",
+        "name": "Devolotics",
+        "type": "specimen",
+        "opr": 68.4,
+        "teleop_opr": 54.5,
+        "auton_opr": 9.0,
+        "end-ascent-score": 4.5
+    },
+    {
+        "number": "19532",
+        "name": "MechCat",
+        "type": "sample",
+        "opr": 67.9,
+        "teleop_opr": 51.6,
+        "auton_opr": 14.1,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "16423",
+        "name": "Storm",
+        "type": "specimen",
+        "opr": 67.1,
+        "teleop_opr": 49.7,
+        "auton_opr": 12.2,
+        "end-ascent-score": 1.8
+    },
+    {
+        "number": "19446",
+        "name": "Team Titans Go",
+        "type": "specimen",
+        "opr": 66.2,
+        "teleop_opr": 40.6,
+        "auton_opr": 12.9,
+        "end-ascent-score": 7.9
+    },
+    {
+        "number": "9999",
+        "name": "The Ninejas",
+        "type": "sample",
+        "opr": 63.7,
+        "teleop_opr": 39.3,
+        "auton_opr": 5.4,
+        "end-ascent-score": 11.0
+    },
+    {
+        "number": "18158",
+        "name": "The Futuristics",
+        "type": "sample",
+        "opr": 60.5,
+        "teleop_opr": 33.5,
+        "auton_opr": 28.5,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "24457",
+        "name": "Stormbots",
+        "type": "sample",
+        "opr": 60.4,
+        "teleop_opr": 30.2,
+        "auton_opr": 9.1,
+        "end-ascent-score": 11.1
+    },
+    {
+        "number": "19468",
+        "name": "Alpha Dogs Theta",
+        "type": "sample",
+        "opr": 57.9,
+        "teleop_opr": 39.5,
+        "auton_opr": 8.9,
+        "end-ascent-score": 5.2
+    },
+    {
+        "number": "19521",
+        "name": "DOC BOTICS",
+        "type": "sample",
+        "opr": 56.1,
+        "teleop_opr": 38.7,
+        "auton_opr": 5.0,
+        "end-ascent-score": 10.0
+    },
+    {
+        "number": "22497",
+        "name": "R3P2 Hotdog Wheels",
+        "type": "sample",
+        "opr": 56.0,
+        "teleop_opr": 40.2,
+        "auton_opr": 14.5,
+        "end-ascent-score": 3.2
+    },
+    {
+        "number": "18846",
+        "name": "Brebotics",
+        "type": "sample",
+        "opr": 54.7,
+        "teleop_opr": 32.4,
+        "auton_opr": 6.8,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "22034",
+        "name": "Packbot",
+        "type": "sample",
+        "opr": 54.4,
+        "teleop_opr": 28.2,
+        "auton_opr": 13.5,
+        "end-ascent-score": 8.8
+    },
+    {
+        "number": "27831",
+        "name": "DVSS Robotics",
+        "type": "specimen",
+        "opr": 53.9,
+        "teleop_opr": 43.7,
+        "auton_opr": 5.7,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "24760",
+        "name": "Scuola ",
+        "type": "sample",
+        "opr": 53.4,
+        "teleop_opr": 38.7,
+        "auton_opr": 6.1,
+        "end-ascent-score": 3.9
+    },
+    {
+        "number": "19532",
+        "name": "MechCat",
+        "type": "sample",
+        "opr": 53.4,
+        "teleop_opr": 40.3,
+        "auton_opr": 1.9,
+        "end-ascent-score": 1.1
+    },
+    {
+        "number": "16366",
+        "name": "TFS Robotic Unicorns",
+        "type": "sample",
+        "opr": 53.2,
+        "teleop_opr": 35.9,
+        "auton_opr": 10.6,
+        "end-ascent-score": 0.2
+    },
+    {
+        "number": "18844",
+        "name": "Pr0Teens",
+        "type": "sample",
+        "opr": 52.3,
+        "teleop_opr": 38.2,
+        "auton_opr": 10.1,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "16488",
+        "name": "Rams Robotics",
+        "type": "specimen",
+        "opr": 49.8,
+        "teleop_opr": 37.0,
+        "auton_opr": 14.5,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "18844",
+        "name": "Pr0Teens",
+        "type": "sample",
+        "opr": 49.5,
+        "teleop_opr": 51.1,
+        "auton_opr": 3.4,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "22664",
+        "name": "R3P2 Pivotal Ponies",
+        "type": "sample",
+        "opr": 48.7,
+        "teleop_opr": 33.4,
+        "auton_opr": 10.4,
+        "end-ascent-score": 0.0
+    },
+    {
+        "number": "27631",
+        "name": "BeWitched",
+        "type": "specimen",
+        "opr": 45.2,
+        "teleop_opr": 33.3,
+        "auton_opr": 9.3,
+        "end-ascent-score": 2.9
+    },
+    {
+        "number": "27076",
+        "name": "Intellibots Academy",
+        "type": "specimen",
+        "opr": 44.2,
+        "teleop_opr": 29.6,
+        "auton_opr": 7.9,
+        "end-ascent-score": 4.3
+    },
+    {
+        "number": "24457",
+        "name": "Stormbots",
+        "type": "specimen",
+        "opr": 44.2,
+        "teleop_opr": 30.1,
+        "auton_opr": 9.8,
+        "end-ascent-score": 5.9
+    },
+    {
+        "number": "19521",
+        "name": "DOC BOTICS",
+        "type": "sample",
+        "opr": 42.9,
+        "teleop_opr": 23.2,
+        "auton_opr": 10.0,
+        "end-ascent-score": 2.9
+    },
+    {
+        "number": "22309",
+        "name": "Lo-Ellen EDIT (PURPLE)",
+        "type": "sample",
+        "opr": 42.9,
+        "teleop_opr": 25.7,
+        "auton_opr": 3.9,
+        "end-ascent-score": 7.9
+    },
+    {
+        "number": "20261",
+        "name": "Drive Gears",
+        "type": "specimen",
+        "opr": 42.8,
+        "teleop_opr": 30.7,
+        "auton_opr": 11.2,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "16423",
+        "name": "Storm",
+        "type": "specimen",
+        "opr": 42.6,
+        "teleop_opr": 25.3,
+        "auton_opr": 8.7,
+        "end-ascent-score": 1.6
+    },
+    {
+        "number": "24760",
+        "name": "Scuola ",
+        "type": "sample",
+        "opr": 42.3,
+        "teleop_opr": 28.6,
+        "auton_opr": 2.7,
+        "end-ascent-score": 7.0
+    },
+    {
+        "number": "9999",
+        "name": "The Ninejas",
+        "type": "sample",
+        "opr": 41.7,
+        "teleop_opr": 29.7,
+        "auton_opr": 6.8,
+        "end-ascent-score": 5.0
+    },
+    {
+        "number": "27115",
+        "name": "Delta Robotics",
+        "type": "sample",
+        "opr": 40.3,
+        "teleop_opr": 26.5,
+        "auton_opr": 3.2,
+        "end-ascent-score": 7.9
+    },
+    {
+        "number": "22035",
+        "name": "Tundra",
+        "type": "sample",
+        "opr": 38.1,
+        "teleop_opr": 19.3,
+        "auton_opr": 4.0,
+        "end-ascent-score": 17.3
+    },
+    {
+        "number": "22035",
+        "name": "Tundra",
+        "type": "sample",
+        "opr": 37.2,
+        "teleop_opr": 15.2,
+        "auton_opr": 0.9,
+        "end-ascent-score": 17.4
+    },
+    {
+        "number": "27115",
+        "name": "Delta Robotics",
+        "type": "sample",
+        "opr": 36.8,
+        "teleop_opr": 26.2,
+        "auton_opr": 0,
+        "end-ascent-score": 8.7
+    },
+    {
+        "number": "22309",
+        "name": "Lo-Ellen EDIT (PURPLE)",
+        "type": "specimen",
+        "opr": 31.5,
+        "teleop_opr": 23.1,
+        "auton_opr": 4.0,
+        "end-ascent-score": 0.1
+    },
+    {
+        "number": "20261",
+        "name": "Drive Gears",
+        "type": "sample",
+        "opr": 31.5,
+        "teleop_opr": 13.3,
+        "auton_opr": 2.1,
+        "end-ascent-score": 9.6
+    },
+    {
+        "number": "21393",
+        "name": "BearBella",
+        "type": "specimen",
+        "opr": 29.4,
+        "teleop_opr": 21.1,
+        "auton_opr": 1.9,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "16397",
+        "name": "Relatively Quantum   ",
+        "type": "specimen",
+        "opr": 26.5,
+        "teleop_opr": 12.1,
+        "auton_opr": 4.8,
+        "end-ascent-score": 7.6
+    },
+    {
+        "number": "19498",
+        "name": "Devolotics",
+        "type": "specimen",
+        "opr": 25.5,
+        "teleop_opr": 23.8,
+        "auton_opr": 0,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "22497",
+        "name": "R3P2 Hotdog Wheels",
+        "type": "sample",
+        "opr": 25.5,
+        "teleop_opr": 11.7,
+        "auton_opr": 0.2,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "27831",
+        "name": "DVSS Robotics",
+        "type": "sample",
+        "opr": 23.5,
+        "teleop_opr": 17.2,
+        "auton_opr": 5.1,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "27315",
+        "name": "Team Titans 4",
+        "type": "specimen",
+        "opr": 22.6,
+        "teleop_opr": 9.0,
+        "auton_opr": 2.1,
+        "end-ascent-score": 5.2
+    },
+    {
+        "number": "16488",
+        "name": "Rams Robotics",
+        "type": "specimen",
+        "opr": 18.8,
+        "teleop_opr": 4.8,
+        "auton_opr": 0,
+        "end-ascent-score": 8.1
+    },
+    {
+        "number": "22664",
+        "name": "R3P2 Pivotal Ponies",
+        "type": "sample",
+        "opr": 18.6,
+        "teleop_opr": 15.2,
+        "auton_opr": 0,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "22603",
+        "name": "Stormbots",
+        "type": "specimen",
+        "opr": 18.5,
+        "teleop_opr": 8.9,
+        "auton_opr": 0,
+        "end-ascent-score": 2.1
+    },
+    {
+        "number": "25049",
+        "name": "BudJetTech",
+        "type": "sample",
+        "opr": 15.4,
+        "teleop_opr": 4.2,
+        "auton_opr": 1.5,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "20261",
+        "name": "Drive Gears",
+        "type": "specimen",
+        "opr": 8.5,
+        "teleop_opr": 4.2,
+        "auton_opr": 0,
+        "end-ascent-score": 6.7
+    },
+    {
+        "number": "19446",
+        "name": "Team Titans Go",
+        "type": "specimen",
+        "opr": 5.3,
+        "teleop_opr": 4.4,
+        "auton_opr": 1.8,
+        "end-ascent-score": 0.6
+    },
+    {
+        "number": "27344",
+        "name": "UCC",
+        "type": "sample",
+        "opr": 4.7,
+        "teleop_opr": 4.1,
+        "auton_opr": 0,
+        "end-ascent-score": 0
+    },
+    {
+        "number": "27631",
+        "name": "BeWitched",
+        "type": "both",
+        "opr": 3.4,
+        "teleop_opr": 3.2,
+        "auton_opr": 0,
+        "end-ascent-score": 2.7
+    }
+]
