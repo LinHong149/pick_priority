@@ -1,0 +1,442 @@
+[
+    {
+        "teamNumber": 16366,
+        "teamName": "TFS Robotic Unicorns",
+        "botType": "specimen",
+        "autonSample": 0.0,
+        "autonSpecimen": 10.0,
+        "teleopSample": 32.8,
+        "teleopSpecimen": 18.0,
+        "endgameParking": 9.6
+    },
+    {
+        "teamNumber": 16366,
+        "teamName": "TFS Robotic Unicorns",
+        "botType": "sample",
+        "autonSample": 0.0,
+        "autonSpecimen": 10.0,
+        "teleopSample": 52.8,
+        "teleopSpecimen": 18.0,
+        "endgameParking": 3.6
+    },
+    {
+        "teamNumber": 18433,
+        "teamName": "MakeShift Tech",
+        "botType": "specimen",
+        "autonSample": 2.0,
+        "autonSpecimen": 16.0,
+        "teleopSample": 13.6,
+        "teleopSpecimen": 80.0,
+        "endgameParking": 9.6
+    },
+    {
+        "teamNumber": 19498,
+        "teamName": "Devolotics",
+        "botType": "specimen",
+        "autonSample": 0.0,
+        "autonSpecimen": 2.0,
+        "teleopSample": 15.2,
+        "teleopSpecimen": 34.0,
+        "endgameParking": 6.0
+    },
+    {
+        "teamNumber": 19498,
+        "teamName": "Devolotics",
+        "botType": "specimen",
+        "autonSample": 0.0,
+        "autonSpecimen": 14.0,
+        "teleopSample": 32.0,
+        "teleopSpecimen": 50.0,
+        "endgameParking": 8.4
+    },
+    {
+        "teamNumber": 19500,
+        "teamName": "RoBEARtics",
+        "botType": "sample",
+        "autonSample": 9.6,
+        "autonSpecimen": 0.0,
+        "teleopSample": 101.6,
+        "teleopSpecimen": 0.0,
+        "endgameParking": 4.8
+    },
+    {
+        "teamNumber": 19500,
+        "teamName": "RoBEARtics",
+        "botType": "sample",
+        "autonSample": 0.0,
+        "autonSpecimen": 0.0,
+        "teleopSample": 84.8,
+        "teleopSpecimen": 24.0,
+        "endgameParking": 4.8
+    },
+    {
+        "teamNumber": 19532,
+        "teamName": "MechCat",
+        "botType": "sample",
+        "autonSample": 14.4,
+        "autonSpecimen": 3.2,
+        "teleopSample": 68.0,
+        "teleopSpecimen": 6.0,
+        "endgameParking": 4.2
+    },
+    {
+        "teamNumber": 19532,
+        "teamName": "MechCat",
+        "botType": "sample",
+        "autonSample": 0.0,
+        "autonSpecimen": 0.0,
+        "teleopSample": 50.8,
+        "teleopSpecimen": 20.0,
+        "endgameParking": 6.6
+    },
+    {
+        "teamNumber": 20261,
+        "teamName": "Drive Gears",
+        "botType": "specimen",
+        "autonSample": 0.4,
+        "autonSpecimen": 2.0,
+        "teleopSample": 12.8,
+        "teleopSpecimen": 10.0,
+        "endgameParking": 13.8
+    },
+    {
+        "teamNumber": 20261,
+        "teamName": "Drive Gears",
+        "botType": "specimen",
+        "autonSample": 2.0,
+        "autonSpecimen": 10.0,
+        "teleopSample": 15.6,
+        "teleopSpecimen": 31.2,
+        "endgameParking": 4.2
+    },
+    {
+        "teamNumber": 20261,
+        "teamName": "Drive Gears",
+        "botType": "specimen",
+        "autonSample": 1.33,
+        "autonSpecimen": 15.0,
+        "teleopSample": 20.67,
+        "teleopSpecimen": 44.33,
+        "endgameParking": 19.0
+    },
+    {
+        "teamNumber": 21393,
+        "teamName": "BearBella",
+        "botType": "specimen",
+        "autonSample": 3.2,
+        "autonSpecimen": 13.2,
+        "teleopSample": 45.2,
+        "teleopSpecimen": 49.2,
+        "endgameParking": 4.2
+    },
+    {
+        "teamNumber": 21393,
+        "teamName": "BearBella",
+        "botType": "specimen",
+        "autonSample": 0.0,
+        "autonSpecimen": 4.0,
+        "teleopSample": 35.2,
+        "teleopSpecimen": 34.0,
+        "endgameParking": 5.4
+    },
+    {
+        "teamNumber": 21396,
+        "teamName": "LP Robotics",
+        "botType": "sample",
+        "autonSample": 5.2,
+        "autonSpecimen": 0.0,
+        "teleopSample": 38.4,
+        "teleopSpecimen": 6.0,
+        "endgameParking": 7.2
+    },
+    {
+        "teamNumber": 21396,
+        "teamName": "LP Robotics",
+        "botType": "sample",
+        "autonSample": 0.0,
+        "autonSpecimen": 2.0,
+        "teleopSample": 24.0,
+        "teleopSpecimen": 3.2,
+        "endgameParking": 6.6
+    },
+    {
+        "teamNumber": 21909,
+        "teamName": "Robo-Tigers",
+        "botType": "specimen",
+        "autonSample": 0.8,
+        "autonSpecimen": 2.0,
+        "teleopSample": 6.8,
+        "teleopSpecimen": 26.0,
+        "endgameParking": 6.6
+    },
+    {
+        "teamNumber": 21909,
+        "teamName": "Robo-Tigers",
+        "botType": "specimen",
+        "autonSample": 1.6,
+        "autonSpecimen": 8.0,
+        "teleopSample": 8.4,
+        "teleopSpecimen": 29.6,
+        "endgameParking": 6.6
+    },
+    {
+        "teamNumber": 22379,
+        "teamName": "R3P2 Tech Runners",
+        "botType": "specimen",
+        "autonSample": 0.0,
+        "autonSpecimen": 0.0,
+        "teleopSample": 10.4,
+        "teleopSpecimen": 30.0,
+        "endgameParking": 16.8
+    },
+    {
+        "teamNumber": 22379,
+        "teamName": "R3P2 Tech Runners",
+        "botType": "sample",
+        "autonSample": 1.6,
+        "autonSpecimen": 0.0,
+        "teleopSample": 20.4,
+        "teleopSpecimen": 12.0,
+        "endgameParking": 14.4
+    },
+    {
+        "teamNumber": 22497,
+        "teamName": "R3P2 Hotdog Wheels",
+        "botType": "sample",
+        "autonSample": 12.8,
+        "autonSpecimen": 2.0,
+        "teleopSample": 46.0,
+        "teleopSpecimen": 12.0,
+        "endgameParking": 10.2
+    },
+    {
+        "teamNumber": 22497,
+        "teamName": "R3P2 Hotdog Wheels",
+        "botType": "sample",
+        "autonSample": 0.0,
+        "autonSpecimen": 6.0,
+        "teleopSample": 38.0,
+        "teleopSpecimen": 14.0,
+        "endgameParking": 4.8
+    },
+    {
+        "teamNumber": 22664,
+        "teamName": "R3P2 Pivotal Ponies",
+        "botType": "sample",
+        "autonSample": 1.6,
+        "autonSpecimen": 4.0,
+        "teleopSample": 34.0,
+        "teleopSpecimen": 18.0,
+        "endgameParking": 5.4
+    },
+    {
+        "teamNumber": 22664,
+        "teamName": "R3P2 Pivotal Ponies",
+        "botType": "specimen",
+        "autonSample": 8.0,
+        "autonSpecimen": 8.0,
+        "teleopSample": 30.4,
+        "teleopSpecimen": 31.2,
+        "endgameParking": 7.2
+    },
+    {
+        "teamNumber": 23594,
+        "teamName": "LTC7",
+        "botType": "sample",
+        "autonSample": 3.2,
+        "autonSpecimen": 4.0,
+        "teleopSample": 33.6,
+        "teleopSpecimen": 23.2,
+        "endgameParking": 7.8
+    },
+    {
+        "teamNumber": 23594,
+        "teamName": "LTC7",
+        "botType": "specimen",
+        "autonSample": 0.33,
+        "autonSpecimen": 11.67,
+        "teleopSample": 15.0,
+        "teleopSpecimen": 61.67,
+        "endgameParking": 13.0
+    },
+    {
+        "teamNumber": 24287,
+        "teamName": "MCA Infinity 2 Robotics",
+        "botType": "specimen",
+        "autonSample": 0.0,
+        "autonSpecimen": 4.0,
+        "teleopSample": 16.0,
+        "teleopSpecimen": 34.4,
+        "endgameParking": 12.0
+    },
+    {
+        "teamNumber": 24287,
+        "teamName": "MCA Infinity 2 Robotics",
+        "botType": "specimen",
+        "autonSample": 2.67,
+        "autonSpecimen": 6.67,
+        "teleopSample": 21.67,
+        "teleopSpecimen": 41.67,
+        "endgameParking": 12.0
+    },
+    {
+        "teamNumber": 25049,
+        "teamName": "BudJetTech",
+        "botType": "sample",
+        "autonSample": 4.8,
+        "autonSpecimen": 4.0,
+        "teleopSample": 87.6,
+        "teleopSpecimen": 13.2,
+        "endgameParking": 3.0
+    },
+    {
+        "teamNumber": 25049,
+        "teamName": "BudJetTech",
+        "botType": "sample",
+        "autonSample": 0.0,
+        "autonSpecimen": 4.0,
+        "teleopSample": 28.0,
+        "teleopSpecimen": 9.2,
+        "endgameParking": 3.0
+    },
+    {
+        "teamNumber": 25914,
+        "teamName": "LionByte",
+        "botType": "specimen",
+        "autonSample": 2.4,
+        "autonSpecimen": 4.0,
+        "teleopSample": 12.8,
+        "teleopSpecimen": 12.0,
+        "endgameParking": 6.6
+    },
+    {
+        "teamNumber": 25914,
+        "teamName": "LionByte",
+        "botType": "specimen",
+        "autonSample": 0.0,
+        "autonSpecimen": 2.0,
+        "teleopSample": 12.4,
+        "teleopSpecimen": 22.0,
+        "endgameParking": 2.4
+    },
+    {
+        "teamNumber": 27158,
+        "teamName": "Bassem Bots",
+        "botType": "specimen",
+        "autonSample": 6.8,
+        "autonSpecimen": 2.0,
+        "teleopSample": 12.8,
+        "teleopSpecimen": 38.0,
+        "endgameParking": 3.0
+    },
+    {
+        "teamNumber": 27158,
+        "teamName": "Bassem Bots",
+        "botType": "specimen",
+        "autonSample": 5.33,
+        "autonSpecimen": 8.33,
+        "teleopSample": 26.33,
+        "teleopSpecimen": 25.0,
+        "endgameParking": 13.0
+    },
+    {
+        "teamNumber": 27281,
+        "teamName": "RoboRodents",
+        "botType": "specimen",
+        "autonSample": 0.4,
+        "autonSpecimen": 0.0,
+        "teleopSample": 3.2,
+        "teleopSpecimen": 5.2,
+        "endgameParking": 3.0
+    },
+    {
+        "teamNumber": 27281,
+        "teamName": "RoboRodents",
+        "botType": "sample",
+        "autonSample": 2.67,
+        "autonSpecimen": 0.0,
+        "teleopSample": 15.0,
+        "teleopSpecimen": 16.67,
+        "endgameParking": 5.5
+    },
+    {
+        "teamNumber": 27344,
+        "teamName": "~untitled document",
+        "botType": "specimen",
+        "autonSample": 0.0,
+        "autonSpecimen": 3.33,
+        "teleopSample": 14.0,
+        "teleopSpecimen": 9.33,
+        "endgameParking": 4.0
+    },
+    {
+        "teamNumber": 27344,
+        "teamName": "~untitled document",
+        "botType": "specimen",
+        "autonSample": 1.6,
+        "autonSpecimen": 18.0,
+        "teleopSample": 18.8,
+        "teleopSpecimen": 50.0,
+        "endgameParking": 4.8
+    },
+    {
+        "teamNumber": 27488,
+        "teamName": "R3P2 Raccoons",
+        "botType": "specimen",
+        "autonSample": 3.2,
+        "autonSpecimen": 6.0,
+        "teleopSample": 13.2,
+        "teleopSpecimen": 32.0,
+        "endgameParking": 11.4
+    },
+    {
+        "teamNumber": 27488,
+        "teamName": "R3P2 Raccoons",
+        "botType": "sample",
+        "autonSample": 0.4,
+        "autonSpecimen": 0.0,
+        "teleopSample": 24.0,
+        "teleopSpecimen": 21.2,
+        "endgameParking": 4.2
+    },
+    {
+        "teamNumber": 27831,
+        "teamName": "DVSS Robotics",
+        "botType": "specimen",
+        "autonSample": 4.8,
+        "autonSpecimen": 10.0,
+        "teleopSample": 36.4,
+        "teleopSpecimen": 44.0,
+        "endgameParking": 4.2
+    },
+    {
+        "teamNumber": 27831,
+        "teamName": "DVSS Robotics",
+        "botType": "sample",
+        "autonSample": 3.2,
+        "autonSpecimen": 4.0,
+        "teleopSample": 37.6,
+        "teleopSpecimen": 14.0,
+        "endgameParking": 1.2
+    },
+    {
+        "teamNumber": 28498,
+        "teamName": "Daedabyte",
+        "botType": "sample",
+        "autonSample": 3.2,
+        "autonSpecimen": 0.0,
+        "teleopSample": 45.6,
+        "teleopSpecimen": 4.0,
+        "endgameParking": 3.0
+    },
+    {
+        "teamNumber": 28498,
+        "teamName": "Daedabyte",
+        "botType": "specimen",
+        "autonSample": 1.6,
+        "autonSpecimen": 6.0,
+        "teleopSample": 10.4,
+        "teleopSpecimen": 32.0,
+        "endgameParking": 10.8
+    }
+]
