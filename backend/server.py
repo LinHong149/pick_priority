@@ -43,6 +43,8 @@ def get_auth_header():
 
 
 @app.get("/")
+
+
 def read_root():
     return {"message": "Welcome to the FTC API Proxy"}
 

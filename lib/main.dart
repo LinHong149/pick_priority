@@ -174,8 +174,9 @@ class MyAppState extends ChangeNotifier {
     isLoading = true;
     notifyListeners();
 
+    final String apiURL = "https://pick-priority-nxri5os8e-linhong149s-projects.vercel.app";
     final String eventsApiUrl = "http://10.0.2.2:8000/events";
-    final String filterJsonUrl = "http://10.127.32.46:8000/filter.json";
+    final String filterJsonUrl = "$apiURL/filter.json";
 
     try {
       print("📡 Fetching filter.json...");
