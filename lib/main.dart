@@ -54,6 +54,9 @@ class MyAppState extends ChangeNotifier {
     "ascent": 0
   };
 
+  // Add loading state
+  bool isLoading = true;
+
   // TEAMS DATA ----------------------------------------------------
   Future<void> loadTeamData() async {
     try {
@@ -130,57 +133,95 @@ class MyAppState extends ChangeNotifier {
   }
 
   List<String> getOptions(String category) {
-    if (category == "Country") {
-      return filterOptions["Country"]?.cast<String>() ?? ["All"];
-    } else if (category == "Province/State") {
-      String selectedCountry = selectedFilters["Country"] ?? "All";
-      return filterOptions["Province/State"]?[selectedCountry]?.cast<String>() ?? ["All"];
-    } else if (category == "Event") {
-      String selectedState = selectedFilters["Province/State"] ?? "All";
-      return filterOptions["Event"]?[selectedState]?.cast<String>() ?? ["All"];
+    if (isLoading) {
+      print("⏳ Still loading filter options...");
+      return ["Loading..."];
     }
+
+    print("🔍 Getting options for category: $category");
+    print("Current filterOptions: $filterOptions");
+
+    if (filterOptions.isEmpty) {
+      print("⚠️ Filter options is empty");
+      return ["All"];
+    }
+
+    try {
+      if (category == "Country") {
+        var countryOptions = filterOptions["Country"];
+        print("Raw country options: $countryOptions");
+        return (countryOptions as List<dynamic>).cast<String>();
+      } else if (category == "Province/State") {
+        String selectedCountry = selectedFilters["Country"] ?? "All";
+        var stateOptions = filterOptions["Province/State"]?[selectedCountry];
+        print("Raw state options for $selectedCountry: $stateOptions");
+        return stateOptions != null ? (stateOptions as List<dynamic>).cast<String>() : ["All"];
+      } else if (category == "Event") {
+        String selectedState = selectedFilters["Province/State"] ?? "All";
+        var eventOptions = filterOptions["Event"]?[selectedState];
+        print("Raw event options for $selectedState: $eventOptions");
+        return eventOptions != null ? (eventOptions as List<dynamic>).cast<String>() : ["All"];
+      }
+    } catch (e) {
+      print("❌ Error getting options for $category: $e");
+    }
+
     return ["All"];
   }
 
   // Fetch filter.json from the backend
   Future<void> loadFilterOptions() async {
-    final String eventsApiUrl = "http://10.0.2.2:8000/events"; // Android emulator
-    final String filterJsonUrl = "http://10.0.2.2:8000/filter.json";
+    isLoading = true;
+    notifyListeners();
+
+    final String eventsApiUrl = "http://10.0.2.2:8000/events";
+    final String filterJsonUrl = "http://10.127.32.46:8000/filter.json";
 
     try {
-      print("Calling /events API to generate filter.json...");
-      final eventsResponse = await http.get(Uri.parse(eventsApiUrl));
-
-      if (eventsResponse.statusCode == 200) {
-        print("Successfully triggered /events API.");
-      } else {
-        print("Warning: /events API failed with status ${eventsResponse.statusCode}. Proceeding with default filter.json...");
-      }
-    } catch (e) {
-      print("Warning: Error calling /events API: $e. Proceeding with default filter.json...");
-    }
-
-    // Step 2: Immediately fetch filter.json regardless of /events result
-    print("Fetching filter.json...");
-    try {
+      print("📡 Fetching filter.json...");
       final response = await http.get(Uri.parse(filterJsonUrl));
-      if (response.statusCode == 200) {
-        Map<String, dynamic> jsonData = json.decode(response.body);
-        print("Received JSON: $jsonData");
+      print("Filter.json response status: ${response.statusCode}");
 
-        if (jsonData.containsKey("Country") &&
-            jsonData.containsKey("Province/State") &&
-            jsonData.containsKey("Event")) {
-          filterOptions = jsonData;
-          notifyListeners();
-        } else {
-          print("Error: Received unexpected JSON format");
+      if (response.statusCode == 200) {
+        String responseBody = response.body;
+        print("Raw response body: $responseBody");
+
+        try {
+          Map<String, dynamic> jsonData = json.decode(responseBody);
+          print("🔍 Parsed JSON structure: ${jsonData.keys}");
+
+          // Validate the JSON structure
+          bool hasValidStructure = jsonData.containsKey("Country") &&
+              jsonData.containsKey("Province/State") &&
+              jsonData.containsKey("Event");
+
+          print("Has valid structure: $hasValidStructure");
+
+          if (hasValidStructure) {
+            filterOptions = jsonData;
+            print("✅ Filter options updated: $filterOptions");
+
+            // Verify the data types
+            print("Country type: ${filterOptions['Country'].runtimeType}");
+            print("Province/State type: ${filterOptions['Province/State'].runtimeType}");
+            print("Event type: ${filterOptions['Event'].runtimeType}");
+
+            notifyListeners();
+          } else {
+            print("❌ Error: Missing required keys in JSON");
+            print("Available keys: ${jsonData.keys.toList()}");
+          }
+        } catch (parseError) {
+          print("❌ JSON parsing error: $parseError");
         }
       } else {
-        print("Failed to load filter data: ${response.statusCode}");
+        print("❌ Failed to load filter data: ${response.statusCode}");
       }
     } catch (e) {
-      print("Error fetching filter data: $e");
+      print("❌ Error fetching filter data: $e");
+    } finally {
+      isLoading = false;
+      notifyListeners();
     }
   }
 
@@ -298,6 +339,14 @@ class _MyHomePageState extends State<MyHomePage> {
       builder: (context) {
         var appState = context.watch<MyAppState>();
 
+        if (appState.isLoading) {
+          return Container(
+            padding: EdgeInsets.all(16),
+            child: Center(
+              child: CircularProgressIndicator(),
+            ),
+          );
+        }
 
         return FractionallySizedBox(
           heightFactor: 0.6,
@@ -405,7 +454,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ],
                     ),
                     GFButton(
-                      onPressed: () {}, // Function to show filter panel
+                      onPressed: () => _showFilterPanel(context),// Function to show filter panel
                       text: "Filter",
                       icon: Icon(Icons.filter_list, color: Colors.white),
                       color: GFColors.PRIMARY,

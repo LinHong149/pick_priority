@@ -71,7 +71,6 @@ async def get_filter_json():
     """Serves the filter.json file"""
     if not os.path.exists(FILTER_JSON_PATH):
         raise HTTPException(status_code=404, detail="filter.json not found")
-
     return FileResponse(FILTER_JSON_PATH, media_type="application/json")
 
 @app.get("/teams")
